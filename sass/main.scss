@@ -1,3 +1,5 @@
+// node_modules/bootstrap/scss/_variables.scss
+
 @font-face {
   font-family: Avenir;
   src:url(/fonts/avenir-reg.woff2) format('woff2');
@@ -11,5 +13,14 @@
 
 $font-family-sans-serif:  "Avenir", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 $headings-font-weight:    bold;
+
+// Colors
+$clr-dark:      #262D37;
+$clr-darkish:   #414B59;
+$clr-light:     #EFF1F4;
+
+$dark:      $clr-dark;
+$secondary: $clr-darkish;
+$light:     $clr-light;
 
 @import "../node_modules/bootstrap/scss/bootstrap";

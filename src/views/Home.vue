@@ -23,10 +23,10 @@
         <h2>Reviews</h2>
 
         <form class="form-inline my-4">
-          <input type="text" class="form-control" id="searchBox" placeholder="Search">
+          <input type="text" class="form-control shadow-sm border-0" id="searchBox" placeholder="Search">
         </form>
 
-        <table class="table table-hover">
+        <table class="table table-hover rounded-lg shadow bg-white table-borderless">
           <thead>
             <tr>
               <th scope="col">Customer</th>
