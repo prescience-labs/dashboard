@@ -1,18 +1,18 @@
 <template>
   <div>
     <div class="row">
-      <div class="col">
-        <Card>
+      <div class="col-md-4">
+        <Card class="my-2">
           <Statistic statisticMainText="67" statisticSubText="New users this week" />
         </Card>
       </div>
-      <div class="col">
-        <Card>
+      <div class="col-md-4">
+        <Card class="my-2">
           <Statistic statisticMainText="67" statisticSubText="New users this week" />
         </Card>
       </div>
-      <div class="col">
-        <Card>
+      <div class="col-md-4">
+        <Card class="my-2">
           <Statistic statisticMainText="67" statisticSubText="New users this week" />
         </Card>
       </div>
@@ -20,6 +20,12 @@
 
     <div class="row mt-5">
       <div class="col">
+        <h2>Reviews</h2>
+
+        <form class="form-inline my-4">
+          <input type="text" class="form-control" id="searchBox" placeholder="Search">
+        </form>
+
         <table class="table table-hover">
           <thead>
             <tr>
