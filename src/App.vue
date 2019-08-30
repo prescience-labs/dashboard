@@ -3,7 +3,7 @@
     <div class="row no-gutters vh-100">
       <div class="col-2 bg-secondary text-light">
         <nav id="nav" class="navbar navbar-expand navbar-dark bg-dark py-4">
-          <router-link to="/" class="navbar-brand">Dashboard</router-link>
+          <router-link to="/" class="navbar-brand">DataIntel</router-link>
         </nav>
         <ul class="nav flex-column">
           <li class="nav-item">
@@ -16,7 +16,7 @@
       </div>
       <div class="col bg-light d-flex flex-column">
         <nav id="nav" class="navbar navbar-expand navbar-light bg-white d-flex shadow-sm py-4">
-          <router-link to="/" class="navbar-brand">Dashboard</router-link>
+          <router-link to="/" class="navbar-brand">Chicago Thread Co</router-link>
           <form class="form-inline mr-auto flex-fill d-flex">
               <input class="form-control mr-sm-3 flex-fill shadow-sm border-0" type="search" placeholder="Search" aria-label="Search">
           </form>
