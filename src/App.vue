@@ -1,9 +1,9 @@
 <template>
   <div id="app">
     <div class="row no-gutters vh-100">
-      <div class="col-2 bg-secondary text-light">
+      <div class="col-2 bg-secondary text-light d-none d-md-block">
         <div class="sticky-top">
-          <nav id="nav" class="navbar navbar-expand navbar-dark bg-dark py-4">
+          <nav id="nav" class="navbar navbar-expand navbar-dark bg-dark py-4 sticky-top">
             <router-link to="/" class="navbar-brand">DataIntel</router-link>
           </nav>
           <ul class="nav flex-column">
@@ -18,7 +18,7 @@
       </div>
       <div class="col bg-light d-flex flex-column">
         <nav id="nav" class="navbar navbar-expand navbar-light bg-white d-flex shadow-sm py-4 sticky-top">
-          <router-link to="/" class="navbar-brand">Chicago Thread Co</router-link>
+          <router-link to="/" class="navbar-brand d-none d-md-block">Chicago Thread Co</router-link>
           <form class="form-inline mr-auto flex-fill d-flex">
               <input class="form-control mr-sm-3 flex-fill shadow-sm border-0" type="search" placeholder="Search" aria-label="Search">
           </form>
