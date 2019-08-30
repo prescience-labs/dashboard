@@ -1,5 +1,10 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
+  <div class="container">
+    <h1>About us</h1>
+    <p>
+      This is an about page. It's very helpful!
+
+      Don't you think?
+    </p>
   </div>
 </template>
