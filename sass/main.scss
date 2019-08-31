@@ -18,9 +18,18 @@ $headings-font-weight:    bold;
 $clr-dark:      #262D37;
 $clr-darkish:   #414B59;
 $clr-light:     #EFF1F4;
+$clr-blueish:   #2BABAD;
 
 $dark:      $clr-dark;
 $secondary: $clr-darkish;
 $light:     $clr-light;
+$primary:   $clr-blueish;
+
+$border-width: 2px;
+
+// Alerts
+$alert-bg-level:      -11.5;
+$alert-border-level:  -0;
+$alert-padding-y:     1rem;
 
 @import "../node_modules/bootstrap/scss/bootstrap";

@@ -1,6 +1,18 @@
 <template>
   <div>
     <div class="row">
+      <div class="col">
+        <div class="alert alert-primary alert-dismissible fade show" role="alert">
+            <b>Hooray!</b> Your Shopify account is connected!<br>
+            Your customers will receive reminders to leave a review after every order.
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
       <div class="col-md-4">
         <Card class="my-2">
           <Statistic statisticMainText="67" statisticSubText="New users this week" />

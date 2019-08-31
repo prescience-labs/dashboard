@@ -3,7 +3,7 @@
     <div class="row no-gutters vh-100">
       <div class="col-2 bg-secondary text-light d-none d-md-block">
         <div class="sticky-top">
-          <nav id="nav" class="navbar navbar-expand navbar-dark bg-dark py-4 sticky-top">
+          <nav id="nav" class="navbar navbar-expand navbar-dark py-4 sticky-top">
             <router-link to="/" class="navbar-brand">DataIntel</router-link>
           </nav>
           <ul class="nav flex-column">
