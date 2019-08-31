@@ -3,8 +3,10 @@
     <div class="row no-gutters vh-100">
       <div class="col-2 bg-secondary text-light d-none d-md-block">
         <div class="sticky-top">
-          <nav id="nav" class="navbar navbar-expand navbar-dark py-4 sticky-top">
-            <router-link to="/" class="navbar-brand">DataIntel</router-link>
+          <nav id="nav" class="navbar navbar-expand navbar-dark py-4 sticky-top d-flex justify-content-center">
+            <router-link to="/" class="navbar-brand">
+              <img class="img-fluid" src="/img/logo-white.png" alt="">
+            </router-link>
           </nav>
           <ul class="nav flex-column">
             <li class="nav-item">
@@ -18,7 +20,7 @@
       </div>
       <div class="col bg-light d-flex flex-column">
         <nav id="nav" class="navbar navbar-expand navbar-light bg-white d-flex shadow-sm py-4 sticky-top">
-          <router-link to="/" class="navbar-brand d-none d-md-block">Chicago Thread Co</router-link>
+          <router-link to="/" class="navbar-brand d-none d-md-block">Company Name</router-link>
           <form class="form-inline mr-auto flex-fill d-flex">
               <input class="form-control mr-sm-3 flex-fill shadow-sm border-0" type="search" placeholder="Search" aria-label="Search">
           </form>
