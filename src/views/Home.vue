@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container">
     <div class="row">
       <div class="col">
         <div class="alert alert-primary alert-dismissible fade show" role="alert">
@@ -38,7 +38,7 @@
           <input type="text" class="form-control shadow-sm border-0" id="searchBox" placeholder="Search">
         </form>
 
-        <table class="table table-hover rounded-lg shadow bg-white table-borderless">
+        <table class="table table-hover rounded-lg shadow-sm bg-white table-borderless">
           <thead>
             <tr>
               <th scope="col">Customer</th>
