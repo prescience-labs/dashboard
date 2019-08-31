@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div class="row no-gutters vh-100">
-      <div class="col-2 bg-secondary text-light d-none d-md-block">
+      <div class="col-2 bg-secondary text-light d-none d-md-block sidebar">
         <div class="sticky-top">
           <nav id="nav" class="navbar navbar-expand navbar-dark py-4 sticky-top d-flex justify-content-center">
             <router-link to="/" class="navbar-brand">

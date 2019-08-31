@@ -1,5 +1,6 @@
 // node_modules/bootstrap/scss/_variables.scss
 
+// Fonts
 @font-face {
   font-family: Avenir;
   src:url(/fonts/avenir-reg.woff2) format('woff2');
@@ -37,5 +38,10 @@ $alert-padding-y:     1rem;
 $box-shadow-sm: 0 0.125rem .35rem rgba($clr-black, .1);
 $box-shadow:    0 .5rem 1rem rgba($clr-black, .15);
 $box-shadow-lg: 0 1rem 3rem rgba($clr-black, .175);
+
+// Custom CSS
+.sidebar {
+  font-size: 1.25rem;
+}
 
 @import "../node_modules/bootstrap/scss/bootstrap";
